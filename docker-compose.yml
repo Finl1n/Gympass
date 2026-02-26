@@ -1,8 +1,6 @@
-version: "29.2.1"
-
 services:
   api-solid-pg:
-    image: bitnami/postgresql
+    image: bitnami/postgresql:15
     ports:
       - "5432:5432"
     environment:
