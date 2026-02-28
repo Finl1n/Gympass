@@ -15,7 +15,7 @@ app.setErrorHandler((error, _, reply) => {
     });
   }
 
-  if (env.NODE_ENV !== "production") {
+  if (env.NODE_ENV !== "prod") {
     console.error(error);
   } else {
     //TODO: Here we should log the error in an external tool like DataDog, Sentry, etc.
